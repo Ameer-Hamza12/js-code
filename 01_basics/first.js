@@ -8,6 +8,8 @@ console.log("Basic message");
 console.info("Info message");
 console.warn("Warning message");
 console.error("Error message");
+console.log("Here is updated code in this file");
+
 
 // Logging with multiple values
 console.log("Name:", "John", "Age:", 25);
