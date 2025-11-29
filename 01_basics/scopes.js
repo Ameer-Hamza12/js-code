@@ -13,3 +13,11 @@ function outerFunction() {
 
 outerFunction();
 
+//block scope
+
+if (true){
+    let age = 25;
+    const country = 'USA';
+    console.log(age, country);
+}
+
