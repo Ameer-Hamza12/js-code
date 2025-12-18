@@ -186,3 +186,10 @@ console.log(multiply(5, 10));
 let agemy = () => {
     return 30;
 }
+
+
+
+const addnum = (num1, num2) => num1 + num2;
+
+
+console.log(addnum(20, 20));

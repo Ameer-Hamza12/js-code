@@ -21,3 +21,16 @@ if (true){
     console.log(age, country);
 }
 
+
+
+async function fetchData(){
+    try{
+        let response = await fetch('https://dummyjson.com/users');
+        let data = await response.json();
+        console.log(data);
+    } catch(error){
+        console.log('Error fetching data:', error);
+    }
+}
+
+fetchData();
